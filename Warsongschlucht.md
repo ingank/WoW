@@ -1,4 +1,6 @@
-# Warsongschlucht - Taktische Befehle
+# Warsongschlucht
+
+## Taktische Befehle
 
 * D
   * Defense (Deutsch: Verteidigung)
@@ -43,5 +45,5 @@
 * TUN
   * Tunnel
   
-ZERG (HUT)
+* ZERG (HUT)
   * Die Hütte links mit dem Berserker-Buff.
