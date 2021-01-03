@@ -238,3 +238,7 @@ Eine Erweiterung dieser Tabelle bzw. eine deutsche Version soll zu gegebener Zei
 |/yawn||x|You yawn sleepily.|You yawn sleepily at (Target).|
 |/yay|||You are filled with happiness!|You are very happy with (Target)!|
 |/yes|x|x|You nod.|You nod at (Target).|
+
+## Quellen
+* https://classic-wow.fandom.com/wiki/Emote
+
