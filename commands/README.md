@@ -1,8 +1,12 @@
 # Kommandos auf der Chat-Befehlszeile
 
+Dieser Guide behandelt *Slash-Kommandos*.
+Die Bezeichnung *Slash-Kommando* hat ihren Ursprung in der Nutzung des Zeichens `/` (Slash),
+dass in der Befehlszeile dem eigentlichen Befehl vorangestellt wird.
+
 ## Emotionen
 
-Diese Befehle erzeugen eine Chat-Nachricht (normalerweise in einer speziellen Farbe),
+Diese Kommandos erzeugen eine Chat-Nachricht (normalerweise in einer speziellen Farbe),
 die beschreibt,
 was Ihr Charakter tut.
 Diese Chat-Nachricht wird oft von Audio und einigen Charakteraktionen begleitet.
