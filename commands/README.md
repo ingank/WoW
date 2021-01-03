@@ -2,7 +2,7 @@
 
 Dieser Guide behandelt *Slash-Kommandos*.
 Die Bezeichnung *Slash-Kommando* hat ihren Ursprung in der Nutzung des Zeichens `/` (Slash),
-dass in der Befehlszeile dem eigentlichen Befehl vorangestellt wird.
+das in der Befehlszeile dem eigentlichen Befehl vorangestellt wird.
 
 ## Emotionen
 
