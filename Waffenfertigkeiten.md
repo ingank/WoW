@@ -22,7 +22,7 @@
 ## Waffenmeister
 
 |ID|Zone|Koordinate|NPC|Waffenausbildung|
-|--- |--- |--- |--- |--- |
+|:-:|:--- |:---:|:--- |:--- |
 |A|Ironforge|62,89|Bixi Wobbelbonk|Dolche, Wurfwaffen, Armbrüste|
 |B|Ironforge|62,89|Buliwyf Steinhand|Einhandäxte, Einhandstreitkolben, Faustwaffen<br>Zweihandäxte, Zweihandstreitkolben, Schusswaffen|
 |C|Darnassus|58,47|Ilyenia Mondfeuer|Dolche, Faustwaffen, Bogen<br>Wurfwaffen, Stäbe|
@@ -35,7 +35,7 @@
 ## Ausbildungsmatrix
 
 |Waffe <-> Klasse |Hexenm.|Magier|Priester|Druide|Schurke|Jäger|Schamane|Paladin|Krieger|
-|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Dolche|ACD<br>FH|ACD<br>FH|ACD<br>FH|ACD<br>FH|ACD<br>FH|ACD<br>FH|-<br>FH|-|ACD<br>FH|
 |Stäbe|CD<br>EG|CD<br>EG|CD<br>EG|CD<br>EG|-|CD<br>EG|-<br>EG|-|CD<br>EG|
 |Faustwaffen|-|-|-|BC<br>H|BC<br>H|BC<br>H|-<br>H|-|BC<br>H|
@@ -57,7 +57,7 @@
 Beidhändigkeit ist das Vermögen, in jeder Hand eine einhändige Waffe zu tragen.
 
 |Klasse|Lernvorgang und Voraussetzungen|
-|---|---|
+|:---|:---|
 |Schurke|beim Schurkenausbilder, ab Lvl 10|
 |Krieger|beim Kriegerausbilder, ab Lvl. 20|
 |Jäger|beim Jägerausbilder, ab Lvl. 20|
