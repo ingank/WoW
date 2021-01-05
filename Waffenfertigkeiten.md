@@ -32,7 +32,11 @@
 |G|Orgrimmar|82,20|Hanashi|Einhandäxte, Zweihandäxte<br>Stäbe, Wurfwaffen|
 |H|Orgrimmar|82,20|Sayoc|Faustwaffen, Dolche, Bogen<br>Einhandäxte, Zweihandäxte, Wurfwaffen|
 
-## Ausbildungsmatrix
+## Waffen-Ausbildungsmatrix
+
+In Kombination mit der Waffenmeistertabelle kann in dieser Matrix in Sekundenschnelle der nächst gelegene Ausbilder für eine bestimmte Waffe ermittelt werden.
+
+**Beachte:** In der ersten Zeile des Zielfeldes sind die Ausbilder auf Seiten der Allianz notiert, in der zweiten diejenigen der Horde.
 
 |Waffe <-> Klasse |Hexenm.|Magier|Priester|Druide|Schurke|Jäger|Schamane|Paladin|Krieger|
 |:-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
