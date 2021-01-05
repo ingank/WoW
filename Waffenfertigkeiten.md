@@ -51,3 +51,15 @@
 |Armbrust|-|-|-|-|AD<br>F|AD<br>F|-|-|AD<br>F|
 |Schusswaffe|-|-|-|-|B<br>E|B<br>E|-|-|B<br>E|
 |Wurfwaffe|-|-|-|-|AC<br>GH|AC<br>GH|-|-|AC<br>GH|
+
+## Beidhändigkeit
+
+Beidhändigkeit ist das Vermögen, in jeder Hand eine einhändige Waffe zu tragen.
+
+|Klasse|Lernvorgang und Voraussetzungen|
+|---|---|
+|Schurke|beim Schurkenausbilder, ab Lvl 10|
+|Krieger|beim Kriegerausbilder, ab Lvl. 20|
+|Jäger|beim Jägerausbilder, ab Lvl. 20|
+|Schamane|im Verstärker-Talentbaum, frühestens mit Lvl. 40|
+|alle Anderen|nicht möglich|
