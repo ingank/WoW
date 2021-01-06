@@ -20,4 +20,5 @@ Bedingungen:
 * `target=unitid`
   * (1) Eine durch den Spieler erreichbare Einheit
   * (2) Eine durch die Aneinanderreihung von Einheiten adressierte Einheit
-* `modx` = welche Attribute muss das `target` zusätzlich aufweisen, damit die Bedingung erfüllt ist?
+* `modx`
+  * Zusätzliche Attribute des `target=unitid` um die Bedingung zu erfüllen
