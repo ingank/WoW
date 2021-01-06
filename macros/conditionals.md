@@ -4,5 +4,5 @@ Bedingungen modifizieren Befehle so, dass diese nur in bestimmten Fällen ausgef
 
 ## Syntax
 ```
-/command [condition1][condition2] options
+/command [condition1][condition2][...] options
 ```
