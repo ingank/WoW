@@ -57,4 +57,20 @@ Es gilt:
 
 Gegen das Ziel evaluiert:
 
-Gegen der eigenen Charakter evaluiert:
+* `exists`
+  * Die Einheit existiert
+* `help`
+  * Die Einheit existiert UND ihr kann mit einem Spruch geholfen werden
+* `harm`
+  * Die Einheit existiert UND sie kann mit einem Spruch geheilt werden
+* `dead`
+  * Die Einheit existiert UND ist tot
+* `party`
+  * Die Einheit existiert UND ist in der aktuellen Gruppe
+* `raid`
+  * Die Einheit existiert UND ist in der aktuellen Raidgruppe
+* `unithasvehicleui`
+  * Die Einheit existiert UND befindet sich in einem Fahrzeug
+
+Gegen den eigenen Charakter evaluiert:
+
