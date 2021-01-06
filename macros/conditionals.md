@@ -32,7 +32,7 @@ Es gilt:
 * `arenaX`
   * Das Arenamitglied mit der Nummer X (arena1 bis arena5)
 * `mouseover` 
-  * Die Einheit unter dem Mauszeiger (oder bis vor kurzem war)
+  * Die Einheit unter dem Mauszeiger ist (oder bis vor kurzem war)
 * `none`
   * Keine Einheit.
   * Wird beispielsweise verwendet, um Makros so zu modifizieren, dass sie nicht auf den eigenen Charakter wirken. Beispiel: `/cast [target=none] Healing Wave)`
