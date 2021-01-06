@@ -6,24 +6,61 @@ Anwendung:
 /foo [target=unitid,mod1,mod2,...][...]... foo_options
 ```
 
-Dabei gilt:
-
 * `/foo`
   * Kommando, das bedingt ausgeführt werden soll 
-* `[target=unitid,mod1,mod2,...][...]...`
+* `[target=unitid,attr_1,attr_2,...][...]...`
   * Bedingung(en)
 * `foo_options`
   * Optionen und Argumente des Kommandos `\foo`
 
-Bedingung(en):
+Es gilt:
 
 * `target=unitid`
   * (1) Eine durch den Spieler erreichbare Einheit
   * (2) Eine durch die Aneinanderreihung von Einheiten adressierte Einheit
-* `modx`
-  * Zusätzliche Attribute des `target=unitid` um die Bedingung zu erfüllen
+* `attr_x`
+  * Zusätzliche Attribute die erfüllt sein müssen, um die Bedingung zu erfüllen
+  * Alle Attribute einer Bedingung sind durch *AND (UND)* verknüpft
 * `[...]`
   * Weitere mögliche Bedingungen nach dem Schema `[target=unitid,mod1,mod2,...]`
   * verknüpft durch *OR (ODER)* mit den anderen Bedingungen
 * `...`
   * Fortsetzung der Reihe an Bedingungen
+
+## Ziele (target=unitid)
+
+* `arenaX`
+  * Das Arenamitglied mit der Nummer X (arena1 bis arena5)
+* `mouseover` 
+  * Die Einheit unter dem Mauszeiger (oder bis vor kurzem war)
+* `none`
+  * Keine Einheit. Wird beispielsweise verwendet, um ein Makro so zu modifizieren, dass es nicht auf den eigenen Charakter wirkt. Beispiel: `/cast [target=none] Healing Wave)`
+* `partyX` 
+  * Das X'te Mitglied der aktuellen Gruppe, ausgenommen des Spielers selber (party1 bis party4)
+* `partypetX` 
+  * Der Begleiter des X'ten Mitglieds der aktuellen Gruppe (partypet1 bis partypet4)
+* `pet` 
+  * Der eigene Begleiter
+* `player`
+  * Der eigene Charakter
+* `raidX` 
+  * Das X'te Mitglied der aktuellen Raidgruppe (raid1 bis raid40)
+* `raidpetX` 
+  * Der Begleiter des X'ten Mitglieds der aktuellen Raidgruppe (raidpet1 bis raidpett40)
+* `target`
+  * Das aktuell markierte Ziel.
+* `vehicle` 
+  * Das aktuell durch den eigenen Charakter genutzte Fahrzeug.
+
+* `focus` 
+  * The current player's focus target as selected by the /focus command. (Added in 2.0.0).
+* `bossN` 
+  * The active bosses of the current encounter if available N (1,2,3 or 4). (Added in 3.3.0)
+* `nameplateN`
+  * The Nth nameplate (1,2,3,...). Cannot be targeted by spells or commands such as /target nameplate1 or /cast [target=nameplate1] Healing Wave. (Added in 7.0.3)
+
+## Zielattribute (attr_x)
+
+Gegen das Ziel evaluiert:
+
+Gegen der eigenen Charakter evaluiert:
