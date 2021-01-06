@@ -1,8 +1,8 @@
 # Bedingungen
 
-Bedingungen modifizieren Befehle so, dass diese nur in bestimmten Fällen ausgeführt werden.
-
-## Syntax
+Einen Befehl mit einer Bedingung modifizieren:
 ```
 /command [condition1][condition2][...] options
 ```
+
+Bedingungen:
