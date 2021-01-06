@@ -34,7 +34,8 @@ Es gilt:
 * `mouseover` 
   * Die Einheit unter dem Mauszeiger (oder bis vor kurzem war)
 * `none`
-  * Keine Einheit. Wird beispielsweise verwendet, um ein Makro so zu modifizieren, dass es nicht auf den eigenen Charakter wirkt. Beispiel: `/cast [target=none] Healing Wave)`
+  * Keine Einheit.
+  * Wird beispielsweise verwendet, um Makros so zu modifizieren, dass sie nicht auf den eigenen Charakter wirken. Beispiel: `/cast [target=none] Healing Wave)`
 * `partyX` 
   * Das X'te Mitglied der aktuellen Gruppe, ausgenommen des Spielers selber (party1 bis party4)
 * `partypetX` 
