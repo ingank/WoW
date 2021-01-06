@@ -74,3 +74,27 @@ Gegen das Ziel evaluiert:
 
 Gegen den eigenen Charakter evaluiert:
 
+* canexitvehicle
+  * In a vehicle and able to exit
+* channeling, channeling:spellName
+  * Channeling any spell, or a certain spell
+* combat
+  * In combat
+* equipped:type, worn:type
+  * Refer to itemType for possible types (ie, weapon) and subtypes (ie, sword)
+* flyable
+  * Unreliable in Wintergrasp
+* flying
+  * Mounted or flight form, and in the air
+* form:n, stance:n
+  * Refer to GetShapeshiftForm for possible values* 
+* group, group:party, group:raid* IsInGroup() and IsInRaid()* Self-explanatory* 
+* indoors, outdoors* IsIndoors() and IsOutdoors()* Self-explanatory* 
+* mounted* IsMounted()* Self-explanatory* 
+* pet:name, pet:family* UnitCreatureFamily("pet")* Using a hunter pet by name or family* 
+* petbattle* C_PetBattles.IsInBattle()* In a pet battle* 
+* resting* IsResting()* In a rested zone* 
+* spec:n, spec:n1/n2* GetActiveSpecGroup(false)* Activated the n'th (or any of n1, n2) spec* 
+* stealth* IsStealthed()* Self-explanatory* 
+* swimming* IsSubmerged()* Self-explanatory* 
+* talent:row/col* * The given row/col talent is active* 
