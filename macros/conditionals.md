@@ -52,13 +52,6 @@ Es gilt:
 * `vehicle` 
   * Das aktuell durch den eigenen Charakter genutzte Fahrzeug.
 
-* `focus` 
-  * The current player's focus target as selected by the /focus command. (Added in 2.0.0).
-* `bossN` 
-  * The active bosses of the current encounter if available N (1,2,3 or 4). (Added in 3.3.0)
-* `nameplateN`
-  * The Nth nameplate (1,2,3,...). Cannot be targeted by spells or commands such as /target nameplate1 or /cast [target=nameplate1] Healing Wave. (Added in 7.0.3)
-
 ## Zielattribute (attr_x)
 
 Gegen das Ziel evaluiert:
