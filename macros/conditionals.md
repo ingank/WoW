@@ -6,7 +6,6 @@ innerhalb des WoW Classic Makrosystems.
 
 ```
 /foo [con] foo_args
-/foo [con1] foo_args1; [con2] foo_args2
 ```
 
 Es gilt:
