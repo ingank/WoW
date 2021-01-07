@@ -60,9 +60,9 @@ Gegen das Ziel evaluiert:
 * `exists`
   * Die Einheit existiert
 * `help`
-  * Die Einheit existiert UND ihr kann mit einem Spruch geholfen werden
+  * Die Einheit existiert UND ihr kann beim Kampf geholfen werden
 * `harm`
-  * Die Einheit existiert UND sie kann mit einem Spruch geheilt werden
+  * Die Einheit existiert UND sie kann durch den Spielercharakter verletzt werden
 * `dead`
   * Die Einheit existiert UND ist tot
 * `party`
