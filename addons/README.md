@@ -46,7 +46,7 @@ Inhalt der Datei `HelloWoW.lua`:
 ```
 HelloWoW = { }
 
-function Sandbox:HelloWorld()
+function HelloWoW:HelloWorld()
     message("Hello World!")
 end
 
@@ -60,4 +60,4 @@ Sobald der WoW Classic Client gestartet wurde,
 in der *Hello World!* angezeigt wird.
 Mit Betätigung des *OK*-Buttons schließt die Messagebox.
 
-Im laufenbden Spiel kann das Addon (und alle anderen Addons) mit dem Konsolenkommando `/reload` ohne lange Wartezeiten neu gestartet werden. Das ist sinnvoll, wenn das Addon gleichzeitig entwickelt und getestet wird.
+Im laufenden Spiel kann das Addon (und alle anderen Addons) mit dem Konsolenkommando `/reload` ohne lange Wartezeiten neu gestartet werden. Das ist sinnvoll, wenn das Addon gleichzeitig entwickelt und getestet wird.
