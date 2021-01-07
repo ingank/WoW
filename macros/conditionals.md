@@ -1,33 +1,52 @@
 # Bedingungen
 
-Anwendung:
+Dieses Dokument bezieht sich auf den Aspekt der Bedingungen
+(`[con]` = Conditionals = Bedingungen)
+innerhalb des WoW Classic Makrosystems.
 
 ```
-/foo [target=unitid,mod1,mod2,...][...]... foo_options
+/foo [con] foo_args
+/foo [con1] foo_args1; [con2] foo_args2
 ```
-
-* `/foo`
-  * Kommando, das bedingt ausgeführt werden soll 
-* `[target=unitid,attr_1,attr_2,...][...]...`
-  * Bedingung(en)
-* `foo_options`
-  * Optionen und Argumente des Kommandos `\foo`
 
 Es gilt:
 
-* `target=unitid`
-  * (1) Eine durch den Spieler erreichbare Einheit
-  * (2) Eine durch die Aneinanderreihung von Einheiten adressierte Einheit
-* `attr_x`
-  * Zusätzliche Attribute die erfüllt sein müssen, um die Bedingung zu erfüllen
-  * Alle Attribute einer Bedingung sind durch *AND (UND)* verknüpft
-* `[...]`
-  * Weitere mögliche Bedingungen nach dem Schema `[target=unitid,mod1,mod2,...]`
-  * verknüpft durch *OR (ODER)* mit den anderen Bedingungen
-* `...`
-  * Fortsetzung der Reihe an Bedingungen
+* `/foo`
+  * Kommando, das bedingt ausgeführt werden soll
+* `[con]`
+  * Bedingung(en)
+* `foo_args`
+  * Optionen und Argumente des Kommandos `\foo`
 
-## Ziele (target=unitid)
+## Bedingungsquellen
+
+```
+/foo [@unitid] foo_args
+/foo [boolean] foo_args
+/foo [boolean:spec] foo_args
+```
+
+Es gilt:
+
+* `@unitid`
+  * Ist entweder eine durch den Spieler direkt erreichbare Einheit
+  * Oder eine durch die Aneinanderreihung von Zielen von Einheiten adressierbare Einheit (Beispiel: `@pettargettarget`)
+  * kann durch das Präfix `no` negiert werden (Beispiel: `@noplayer` für alle Ziele, außer der eigene Charakter)
+* `boolean`
+  * Funktionen vom Typ Boolean, die von der WoW Client API zur Verfügung gestellt werden (Beispiel: `dead`)
+* `boolean:spec`
+  * Funtionen vom Typ Boolean, die zusätzlich einen speziellen Bezeichner benötigen (Beispiel: `mod:alt`) 
+
+
+## Zielfunktion (@unitid)
+
+Syntax
+```
+(1) target=unitid
+(2) @unitid
+```
+
+mögliche Einheiten oder Einheitengruppen:
 
 * `arenaX`
   * Das Arenamitglied mit der Nummer X (arena1 bis arena5)
@@ -53,7 +72,7 @@ Es gilt:
 * `vehicle` 
   * Das aktuell durch den eigenen Charakter genutzte Fahrzeug.
 
-## Zielattribute (attr_x)
+## Attributfunktionen (Boolean)
 
 Gegen das Ziel evaluiert:
 
@@ -74,27 +93,52 @@ Gegen das Ziel evaluiert:
 
 Gegen den eigenen Charakter evaluiert:
 
-* canexitvehicle
-  * In a vehicle and able to exit
-* channeling, channeling:spellName
-  * Channeling any spell, or a certain spell
-* combat
-  * In combat
-* equipped:type, worn:type
-  * Refer to itemType for possible types (ie, weapon) and subtypes (ie, sword)
-* flyable
-  * Unreliable in Wintergrasp
-* flying
-  * Mounted or flight form, and in the air
-* form:n, stance:n
-  * Refer to GetShapeshiftForm for possible values* 
-* group, group:party, group:raid* IsInGroup() and IsInRaid()* Self-explanatory* 
-* indoors, outdoors* IsIndoors() and IsOutdoors()* Self-explanatory* 
-* mounted* IsMounted()* Self-explanatory* 
-* pet:name, pet:family* UnitCreatureFamily("pet")* Using a hunter pet by name or family* 
-* petbattle* C_PetBattles.IsInBattle()* In a pet battle* 
-* resting* IsResting()* In a rested zone* 
-* spec:n, spec:n1/n2* GetActiveSpecGroup(false)* Activated the n'th (or any of n1, n2) spec* 
-* stealth* IsStealthed()* Self-explanatory* 
-* swimming* IsSubmerged()* Self-explanatory* 
-* talent:row/col* * The given row/col talent is active* 
+* `canexitvehicle`
+  * Befindet sich in einem Fahrzeug UND kann dieses verlassen.
+* `channeling`
+  * Kanalisiert aktuell einen Spruch
+* `channeling:foo_spell`
+  * Kanalisiert aktuell den Spruch `foo_spell`
+  * Siehe auch: "Bezeichner von Fertigkeiten und Sprüchen ermitteln"
+* `combat`
+  * Befindet sich im Kampf
+* `equipped:foo_item`
+  * Ist der Gegenstand `foo_item` angelegt?
+  * Mögliche Bezeichner:
+    * Typen, Untertypen und Ausrüstungsgegenstände
+    * Siehe auch: [Typen und Untertypen](https://wow.gamepedia.com/ItemType)
+    * Siehe auch: "Bezeichner von Ausrüstungsgegenständen ermitteln"
+* `worn:type`
+  * Alternative für `equipped:foo_item`
+* `flying`
+  * Fliegt
+* `form:foo_id`
+  * Alternative für `stance:foo_id`
+* `stance:foo_id`
+  * Hat eine bestimmte Gestalt oder Haltung angenommen
+  * Siehe "Haltungen und Gestalten" 
+* `group`
+  * Befindet sich in einer Gruppe oder einer Raidgruppe
+* `group:party`
+  * Befindet sich in einer Gruppe (aber keiner Raidgruppe)
+* `group:raid`
+  * Befindet sich mindestens in einer Raidgruppe 
+* `indoors`
+  * Befindet sich in einem Gebäude
+* `outdoors`
+  * Befindet sich im Freien 
+* `mounted`
+  * Sitzt auf einem Gefährt
+* `pet:name`
+  * Jäger: Nutzt das Haustier mit dem Namen `name`
+* `pet:family`
+  * Jäger: Nutzt die Haustierklasse `family`
+  * Siehe "Haustierklassen" 
+* `petbattle`
+  * Haustier befindet sich im Kampf 
+* `resting`
+  * Ist eingesperrt
+* `stealth`
+  * Ist unsichtbar
+* `swimming`
+  * Schwimmt
