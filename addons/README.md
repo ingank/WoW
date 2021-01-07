@@ -24,7 +24,7 @@ Addon erstellen:
 * Erstelle den Addonordner `HelloWoW`
 * Wechsle in den Unterordner `HelloWoW`
 * Erstelle die Datei `HelloWoW.toc`
-* Erstelle die Datei `HolloWoW.lua`
+* Erstelle die Datei `HelloWoW.lua`
 
 Interface ermitteln:
 
@@ -39,26 +39,26 @@ Inhalt der Datei `HelloWoW.toc`:
 ## Notes: Hello World WoW Addon
 ## Author: Foo Bar
 ## Version: 0.01
-
 HelloWoW.lua
 ```
 
 Inhalt der Datei `HelloWoW.lua`:
 ```
-HelloWoW = { }
-
-function HelloWoW:HelloWorld()
-    message("Hello World!")
-end
-
-HelloWoW:HelloWorld()
+print("Hello World!")
 ```
 
-Starte WoW Classic!
+Starte WoW Classic! Sobald der WoW Classic Client gestartet wurde,
+wird in den Chatlog der Text *Hello World!* gepostet.
 
-Sobald der WoW Classic Client gestartet wurde,
-öffnet sich eine Messagebox
-in der *Hello World!* angezeigt wird.
-Mit Betätigung des *OK*-Buttons schließt die Messagebox.
+**Beachte:**
+Im laufenden Spiel kann das Addon (und alle anderen Addons) mit dem Konsolenkommando `/reload` neu geladen werden.
+Das ist sinnvoll, wenn das Addon gleichzeitig entwickelt und getestet wird.
+Werden während der Testphase neue *.lua* oder *.xml* Dateien erzeugt,
+so muss der Client neu gestartet werden,
+damit diese Änderungen im Spiel aktualsiert werden.
 
-Im laufenden Spiel kann das Addon (und alle anderen Addons) mit dem Konsolenkommando `/reload` ohne lange Wartezeiten neu gestartet werden. Das ist sinnvoll, wenn das Addon gleichzeitig entwickelt und getestet wird.
+## Quellen
+
+* https://wow.gamepedia.com/Create_a_WoW_AddOn_in_under_15_Minutes
+* https://wow.gamepedia.com/Getting_started_with_writing_addons
+* https://www.jimhribar.com/developing-wow-addons/
