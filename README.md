@@ -13,3 +13,5 @@ Letzte geprüfte Version des WoW Classic Clients: `1.13.6`
 * https://wow.gamepedia.com/Secure_command_options
 * https://wow.gamepedia.com/RestrictedEnvironment
 * https://eu.forums.blizzard.com/de/wow/t/guide-makros/2943
+* https://de.classic.wowhead.com/guide=10007/classic-wow-basic-macro-guide
+* https://www.zockify.de/t/classic-priester-makro-sammlung/
