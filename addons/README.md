@@ -11,7 +11,7 @@ World of Warcraft Classic Addon Developement.
   * trixnz.vscode-lua
   * septh.wow-bundle
 
-## Hello World (HelloWoW Addon)
+## HelloWoW Addon erstellen
 
 Ermittlung des Programmordners:
 
@@ -52,3 +52,13 @@ end
 
 HelloWoW:HelloWorld()
 ```
+
+Starte WoW Classic!
+
+Im Spiel kann das Addon (und alle anderen Addons) mit
+
+```
+/reload
+```
+
+ohne lange Wartezeiten aktualisiert werden.
