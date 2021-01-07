@@ -55,10 +55,9 @@ HelloWoW:HelloWorld()
 
 Starte WoW Classic!
 
-Im Spiel kann das Addon (und alle anderen Addons) mit
+Sobald der WoW Classic Client gestartet wurde,
+öffnet sich eine Messagebox
+in der *Hello World!* angezeigt wird.
+Mit Betätigung des *OK*-Buttons schließt die Messagebox.
 
-```
-/reload
-```
-
-ohne lange Wartezeiten aktualisiert werden.
+Im laufenbden Spiel kann das Addon (und alle anderen Addons) mit dem Konsolenkommando `/reload` ohne lange Wartezeiten neu gestartet werden. Das ist sinnvoll, wenn das Addon gleichzeitig entwickelt und getestet wird.
