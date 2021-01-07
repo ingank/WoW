@@ -1,7 +1,28 @@
 # Makros in World of Warcraft Classic
 
-Im Spiel **World of Warcraft Classic** kann die Anwendung von Makros entscheidene Vorteile bei der Steuerung des Charakters bringen.
+```
+#meta
+#meta meta_args
+/foo
+/foo foo_args
+/foo [con1] foo_args
+/foo [con2,con3] foo_args
+/foo [con3][con4] foo_args
+/foo [con5] foo_args1; [con6] foo_args2
+```
 
-## Makros schreiben und anwenden
+Es gilt:
 
-Die Grundlagen des WoW Makrosystems stehen auf **Seite 21** des originalen [World of Warcraft Spielhandbuches](https://bnetcmsus-a.akamaihd.net/cms/template_resource/3YPDWQ7132XX1556919643256.pdf) von 2005 zum Nachlesen bereit.
+* `#meta, #meta meta_args`
+  * Metakommando
+  * Erste Zeile des Makros
+* `/foo`
+  * Auszuführendes Kommando
+* `foo_args`
+  * Optionen und Argumente des Kommandos `/foo`
+* `[con1-6]`
+  * Conditionals = Bedingungen (`IF ... THEN ...`)
+* `IF [con1] THEN DO /foo foo_args`
+* `IF [con2] AND [con3] THEN DO /foo foo_args`
+* `IF [con3] OR [con4] THEN DO /foo foo_args`
+* `IF [con5] THEN DO /foo foo_args1 ELSIF [con6] THEN DO /foo foo_ars2`
