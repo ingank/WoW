@@ -22,6 +22,7 @@ Addon erstellen:
 
 * Wechsle in den Unterordner `_classic_/Interface/Addons`
 * Erstelle den Addonordner `HelloWoW`
+* Wechsle in den Unterordner `HelloWoW`
 * Erstelle die Datei `HelloWoW.toc`
 * Erstelle die Datei `HolloWoW.lua`
 
