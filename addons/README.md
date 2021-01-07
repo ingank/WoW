@@ -1,6 +1,6 @@
 # Addons
 
-World of Warcraft Classic Addon Developement.
+Entwicklung von World of Warcraft Classic Addons.
 
 ## Entwicklungsumgebung
 
