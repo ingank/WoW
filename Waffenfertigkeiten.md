@@ -34,7 +34,7 @@
 
 ## Waffen-Ausbildungsmatrix
 
-In Kombination mit der Waffenmeistertabelle kann in dieser Matrix in Sekundenschnelle der nächst gelegene Ausbilder für eine bestimmte Waffe ermittelt werden.
+In Kombination mit der Waffenmeistertabelle kann in dieser Matrix der nächst gelegene Ausbilder für eine bestimmte Waffe ermittelt werden.
 
 **Beachte:** In der ersten Zeile des Zielfeldes sind die Ausbilder auf Seiten der Allianz notiert, in der zweiten diejenigen der Horde.
 
