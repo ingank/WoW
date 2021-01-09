@@ -1,18 +1,18 @@
-# World of Warcraft Classic
+# World of Warcraft® Classic
 
-Diese Dokumente beziehen sich auf den offiziellen World of Warcraft Classic Client von Blizzard™ Entertaintment.
+Diese Dokumente beziehen sich auf den offiziellen World of Warcraft® Classic Client von Blizzard® Entertaintment.
 
-Letzte geprüfte Version des WoW Classic Clients: `1.13.6`
+Letzte geprüfte Version des World of Warcraft® Classic Clients: `1.13.6`
 
 ## Installation
 
 Die hier angebotene Dokumentation bezieht sich auf folgendes Installationsszenario:
 
-* Blizzard Account [erstellen](https://eu.battle.net/login/de/)
+* Blizzard® Account [erstellen](https://eu.battle.net/login/de/)
 * In der [Accountübersicht](https://account.blizzard.com/overview) auf [Spiele herunterladen](https://www.blizzard.com/de-de/download/) klicken
-*  Dort die Battle.net Desktop App herunterladen und installieren
-* Per Battle.net Desktop App in den Blizzard Account einloggen
-* World of Warcraft Classic installieren
+*  Dort die Battle.net® Desktop App herunterladen und installieren
+* Per Battle.net® Desktop App in den Blizzard® Account einloggen
+* In der Battle.net® Desktop App World of Warcraft® Classic installieren
 
 ## Ressourcen
 
