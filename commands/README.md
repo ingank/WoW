@@ -37,7 +37,7 @@ ohne selbigen Aufwand per _copy&paste_ zu Eigen zu machen.
 
 **Beachte:**
 In beiden verlinkten Übersichten
-sind die Kommandos von World of Warcraft und World of Warcraft Classic aufgeführt.
+sind die Kommandos von World of Warcraft® und World of Warcraft® Classic aufgeführt.
 Ob der lokale WoW Client den gewünschten Befehl beherrscht,
 muss jeweils im Spiel oder online evaluiert werden.
 Aus eigener Erfahrung werden in Suchmaschinen
