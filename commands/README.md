@@ -49,4 +49,13 @@ traue keinem über zwei Jahre alten Artikel.
 * [Alle Kommandos mit kurzer und erweiterter Erklärung](https://wow.gamepedia.com/Macro_commands)
 * [Speziell die Kommandos zur Darstellung von Emotionen](https://wow.gamepedia.com/List_of_emotes)
 
-## Quellen
+## Bezug zum WoW Makrosystem
+
+Die Kommandozeilenbefehle sind fester Bestandteil des WoW Classic Makrosystems.
+Damit keine Redundanzen zwischen diesen Themenfeldern entstehen,
+sind in diesem Zweig
+_ausschließlich_ grundlegende Informationen
+zur WoW Client Console zu finden.
+Weitergehende Inhalte
+(die beide Bereiche betreffen)
+gibt es deshalb im Bereich "Makros".
