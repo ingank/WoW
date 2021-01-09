@@ -4,7 +4,17 @@ Diese Dokumente beziehen sich auf den offiziellen World of Warcraft Classic Clie
 
 Letzte geprüfte Version des WoW Classic Clients: `1.13.6`
 
-## Wichtige Ressourcen im WWW
+## Installation
+
+Die hier angebotene Dokumentation bezieht sich auf folgendes Installationsszenario:
+
+* Blizzard Account [erstellen](https://eu.battle.net/login/de/)
+* In der [Accountübersicht](https://account.blizzard.com/overview) auf [Spiele herunterladen](https://www.blizzard.com/de-de/download/) klicken
+*  Dort die Battle.net Desktop App herunterladen und installieren
+* Per Battle.net Desktop App in den Blizzard Account einloggen
+* World of Warcraft Classic installieren
+
+## Ressourcen
 
 * https://bnetcmsus-a.akamaihd.net/cms/template_resource/3YPDWQ7132XX1556919643256.pdf
 * https://wow.gamepedia.com/Macro_commands
