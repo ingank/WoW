@@ -1,6 +1,6 @@
 # World of Warcraft® Classic
 
-Diese Dokumente beziehen sich auf den offiziellen World of Warcraft® Classic Client von Blizzard® Entertaintment.
+Diese Dokumente beziehen sich auf den offiziellen World of Warcraft® Classic Client von Blizzard® Entertainment.
 
 Letzte geprüfte Version des World of Warcraft® Classic Clients: `1.13.6`
 
